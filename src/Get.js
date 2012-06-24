@@ -1,4 +1,4 @@
-userAgent.get = function(callback) {
+userAgent.prototype.get = function(callback) {
 	var userAgent = {};
 
 	switch(navigator.vendor) {

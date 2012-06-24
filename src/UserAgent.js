@@ -1,1 +1,1 @@
-var userAgent = {};
+var userAgent = function() {};

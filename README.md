@@ -6,12 +6,12 @@ Get the current user agent using Javascript.
 ##Usage
 To get the user agent:
 
-	var ua = userAgent.get();
+	var ua = new userAgent
 
 ###Device
 The user agent's device is a property:
 	
-	console.log(ua.device);
+	var device = ua.get()
 
 
 ##Build
